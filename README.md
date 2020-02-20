@@ -1,27 +1,43 @@
 <p align="center">
     <a href="https://www.iviewui.com">
-        <img width="200" src="https://file.iviewui.com/logo.svg">
+        <img width="200" src="https://file.iviewui.com/logo-new.svg">
     </a>
 </p>
 
 # iView Admin
 [![](https://img.shields.io/travis/iview/iview-admin.svg?style=flat-square)](https://travis-ci.org/iview/iview-admin)
-[![vue](https://img.shields.io/badge/vue-2.5.2-brightgreen.svg?style=flat-square)](https://github.com/vuejs/vue)
-[![iview ui](https://img.shields.io/badge/iview-2.7.2-brightgreen.svg?style=flat-square)](https://github.com/iview/iview)
+[![vue](https://img.shields.io/badge/vue-2.5.13-brightgreen.svg?style=flat-square)](https://github.com/vuejs/vue)
+[![iview ui](https://img.shields.io/badge/iview-3.0.0-brightgreen.svg?style=flat-square)](https://github.com/iview/iview)
+[![npm](https://img.shields.io/npm/l/express.svg)]()
 
 
-## 当前版本：v1.2.3
+## 当前版本：v1.3.1
 [更新日志](https://github.com/iview/iview-admin/releases)
 
 [使用教程](https://github.com/iview/iview-admin/wiki)
 
-[在线访问](https://iview.github.io/iview-admin)
+[在线访问](https://admin.iviewui.com/)
 
 [English Doc](https://github.com/iview/iview-admin/blob/dev/README_EN.md)
 
 [简化版模板](https://github.com/iview/iview-admin/tree/template)
 
 `注：在线版本会在开发版本新小版本发布后更新到相应版本，所以如果想体验最新版本iview-admin，请clone完整项目代码到本地运行。`
+
+## 2.0版本预告 Feature 
+`2.0版本现已公测，可以从2.0分支clone到本地，更多组件正在开发中.`
+
+`Version 2.0 is now open beta, can be cloned from the 2.0 branch to the local, more components are under development.`
+
+- Webpack4 + Vue-cli3.0
+- 重整项目结构，更好封装组件
+- 新增更多组件
+- 多级菜单
+- 动态路由
+- 重构权限控制体系
+- 使用最新版iView以及iView-editor
+- 加入大数据量表格[vue-bigdata-table](https://github.com/lison16/vue-bigdata-table)组件，几十万数据流畅渲染
+- ......
 
 ## Install
 ```bush
@@ -57,6 +73,7 @@ npm run build
     - 可拖拽列表
     - 文件上传
     - 数字渐变
+    - split-pane
 - 表单编辑
     - 文章发布
     - 工作流
@@ -154,6 +171,9 @@ npm run build
 - 数字渐变
 ![image](https://github.com/iview/iview-admin/raw/dev/github-gif/count-to.gif)
 
+- split-pane
+![image](https://github.com/iview/iview-admin/raw/dev/github-gif/split-pane.gif)
+
 - 文章发布
 ![image](https://github.com/iview/iview-admin/raw/dev/github-gif/article-publish.gif)
 
@@ -179,13 +199,17 @@ npm run build
 ![image](https://github.com/iview/iview-admin/raw/dev/github-gif/locking.gif)
 
 - 可收缩侧边栏
-![image](https://github.com/iview/iview-admin/raw/dev/github-gif/sidebarmenu.gif)s
+![image](https://github.com/iview/iview-admin/raw/dev/github-gif/sidebarmenu.gif)
 
 - 主题切换
 ![image](https://github.com/iview/iview-admin/raw/dev/github-gif/theme.gif)
 
 - 消息中心
 ![image](https://github.com/iview/iview-admin/raw/dev/github-gif/message.gif)
+
+### 💖💖 If you find this project helpful, maybe you can buy me a coffee. 💖💖
+![image](https://github.com/iview/iview-admin/raw/dev/github-gif/code.png)
+
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
